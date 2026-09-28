@@ -1,0 +1,13 @@
+#card {
+    background-color: aliceblue;
+    text-align: center;
+    margin-top: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    width: 300px;
+}
+
+#nome, #tecnologia {
+    margin-bottom: 10px;
+    display: block;
+}
