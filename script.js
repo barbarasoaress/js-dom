@@ -14,6 +14,7 @@ function saudar() {
         return;
     }
     msg.innerHTML = `Olá, ${nome.value}, você está apredendo ${tecnologia.value}!` // .value Acessa/pega o que foi digitado.
+    card.style.display = "block";
     card.innerHTML = `<h2>${nome.value}</h2><p>Tecnologia: ${tecnologia.value}</p>`
 
 }
@@ -23,4 +24,5 @@ function limpar() {
     document.getElementById('tecnologia').value='';
     document.getElementById('card').innerHTML='';
     document.getElementById('msg').innerHTML='';
-}
+    document.getElementById("card").style.display = "none"
+;}
